@@ -1,5 +1,4 @@
 // -*- mode: js -*-
-
 import chalk from 'chalk'
 import includes from 'lodash.includes'
 

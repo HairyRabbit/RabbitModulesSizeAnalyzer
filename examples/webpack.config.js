@@ -1,8 +1,10 @@
 var path = require('path')
-var RabbitModulesSizeAnalyzer = require('./').default
+var RabbitModulesSizeAnalyzer = require('./../')
+
+console.log(RabbitModulesSizeAnalyzer.toString())
 
 module.exports = {
-    entry: path.resolve(__dirname, 'src/index.js'),
+    entry: path.resolve(__dirname, '../', 'src/index.js'),
     output: {
 	path: __dirname,
 	filename: 'index.js',
